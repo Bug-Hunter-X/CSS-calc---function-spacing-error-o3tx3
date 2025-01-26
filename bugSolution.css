@@ -1,0 +1,7 @@
+To fix this issue, ensure there are no spaces between the operators and values inside the `calc()` function. The corrected code should be:
+
+```css
+width: calc(100% - 10px);
+```
+
+This will ensure that the calculation is performed correctly, and the element will be rendered as expected.
